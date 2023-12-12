@@ -1,0 +1,336 @@
+* {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color:  #438AD2;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1>img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+h1>span{
+    vertical-align: middle;
+}
+
+.newDiv {
+    padding: 30px 50px;
+    margin: 0 auto;
+    width: 60%;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .15);
+    border-radius: 5px;
+
+}
+
+.textGrandParent {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.textParentDiv {
+    display: inline-block;
+    width: 40%;
+}
+
+.textChildLeftDiv {
+    width: 10%;
+    float: left;
+}
+
+.textFieldImage {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.textChildRightDiv {
+    width: 90%;
+    float: left;
+}
+
+.textChildRightDivInput {
+    border-radius: 50px;
+    height: 45px;
+    width: 95%;
+    padding: 0px 0px 0px 20px;
+    margin: 0 auto;
+    border: 1px solid rgb(114, 114, 114, 0.5);
+}
+
+
+
+.button {
+    padding: 5px 40px;
+    border: 2px solid #438AD2;
+    border-radius: 25px;
+    color: #438AD2;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #438AD2;
+    color: white;
+}
+
+.firstCommendParent {
+    border-radius: 15px;
+    width: 95%;
+    margin: 20px 0px;
+}
+
+/* .firstCommen{
+
+} */
+
+.firstCommendInside {
+    display: inline-block;
+    width: 100%;
+}
+
+.firstCommendInsideLeft {
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 50%;
+}
+
+.fistCommandInsideright {
+    position: relative;
+    width: 90%;
+    background-color: #F2F2F2;
+    display: inline-block;
+    border-radius: 0px 13px 13px 13px;
+}
+
+.firstCommendInsiderightinside {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.insiderightDivleft {
+    width: 90%;
+    float: left;
+
+}
+
+.insiderightDivleft>b {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.insiderightDivleft>p {
+    font-size: 12px;
+    margin: 10px 0px 20px 0px;
+    color: #747474;
+}
+
+.pTag {
+    font-size: 12px;
+}
+
+.insertData {
+    overflow-wrap: anywhere;
+    font-size: 16px;
+}
+
+/* .seemoreButton{
+    display: inline;
+    width: 100px;
+    height: 20px;
+    color: blue;
+} */
+
+.optionDivClass {
+    float: right;
+    margin: 0;
+    width: 10%;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+}
+
+.timeset{
+    position: absolute;
+    top: -5px;
+    left: -90px;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+.optionDiv {
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15);
+    border-radius: 10px 0px 10px 10px;
+}
+
+.optionDiv p {
+    color: #666666;
+    padding: 10px;
+    margin: 0;
+}
+
+.optionDiv p:nth-child(1){
+    border-radius: 10px 0px 0px 0px;
+    font-size: 16px;
+}
+
+.optionDiv p:nth-child(2){
+    border-radius: 0px 0px 10px 10px;
+    font-size: 16px;
+}
+
+.optionDiv p:hover {
+    background-color: #CDCDCD;
+}
+
+.replyPop {
+    margin-left: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.editFieldImage {
+    /* height: auto; */
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50%;
+    float: left;
+}
+
+.eidttextBoxcreate {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    float: left;
+
+}
+
+.reply {
+    border: 2px solid #438AD2;
+    border-radius: 25px;
+    color: #438AD2;
+    text-align: center;
+    margin-left: 20px;
+    float: left;
+    width: 25%;
+    height: 45px;
+    background-color: white;
+}
+
+.reply:hover {
+    background-color: #438AD2;
+    color: white;
+}
+
+.likesection {
+    width: 100%;
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+.likesectionfirstChild {
+    width: 10%;
+    height: 20px;
+    float: left;
+}
+
+.like {
+    float: left;
+    width: 12%;
+    font-size: 15px;
+}
+
+.seperate {
+    width: 4%;
+    float: left;
+}
+
+
+.likeImage {
+    display: none;
+}
+
+.count {
+    margin: 0px 5px;
+    font-size: 14px;}
+
+.replyProfileImg {
+    width: 18%;
+    height: 15px;
+    margin: 0px 1px 0px 5px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+.replyClass {
+    float: left;
+    width: 70%;
+}
+
+.replyspan {
+    font-size: 15px;
+}
+
+.replyPop {
+    display: inline-block;
+    width: 100%;
+}
+
+.textFieldImageinside {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50%;
+    float: left;
+}
+
+.likesectionBottomDiv {
+    width: 100%;
+    display: inline-block;
+}
+
+.likesectionBottomDivinsideLeft {
+    width: 10%;
+    float: left;
+}
+
+.likesectionBottomDivinsideRight {
+    width: 90%;
+    float: right;
+}
+
+.create {
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid #938f8f;
+    font-size: 16px;
+
+}
