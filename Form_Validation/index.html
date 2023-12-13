@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+  <title>Form Validation</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>form validation</h1>
+
+  <form class=" col-md-6 m-auto border p-5 rounded-3  g-3 ">
+
+    <div class="col-md-12 text-align-center">
+      <h3 class="col-md-6 mx-auto mb-5">Regestration Form</h3>
+    </div>
+
+    <div class="col-md-12 d-flex justify-content-between mb-3">
+      <div class="col-md-5">
+        <label for="inputEmail4" class="form-label">First Name</label>
+        <div class="input-group">
+          <div class="input-group-text"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+          <input type="email" placeholder="Enter First Name..." class="form-control shadow-none vv" id="inputEmail4">
+        </div>
+      </div>
+      <div class="col-md-5">
+        <label for="inputEmail4" class="form-label">Last Name</label>
+        <div class="input-group">
+          <div class="input-group-text"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+          <input type="email" placeholder="Enter Last Name..." class="form-control shadow-none" id="inputEmail4">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-12 mb-3">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <div class="input-group">
+        <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <input type="email" placeholder="Enter Email Id" class="form-control shadow-none" id="inputEmail4">
+      </div>
+    </div>
+
+    <div class="col-md-12 mb-4 d-flex justify-content-between">
+      <div class="col-md-5">
+        <label for="inputPassword4" class="form-label">Age</label>
+        <div class="input-group">
+          <div class="input-group-text"><i class="fa fa-male" aria-hidden="true"></i></div>
+          <input type="password" placeholder="Age" class="form-control shadow-none" id="inputPassword4">
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div>
+          <label for="inputEmail4" class="form-label">Date Of Birth</label>
+          <div class="input-group">
+            <div class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+            <input type="email" placeholder="Date of Birth" class="form-control shadow-none" id="inputEmail4">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-12 d-flex mt-4 mb-4 border p-1 Gender">
+      <div class="me-5">
+        <lable class="form-check-label ps-2" for="Gender">Gender :</lable>
+      </div>
+      <div class="form-check me-5 ms-2">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label gernderclick" for="flexRadioDefault1">
+          Male
+        </label>
+      </div>
+      <div class="form-check me-5">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label gernderclick" for="flexRadioDefault2">
+          Female
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label gernderclick" for="flexRadioDefault2">
+          Others
+        </label>
+      </div>
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control shadow-none" id="inputAddress" placeholder="">
+    </div>
+
+
+    <div class="col-md-12 d-flex justify-content-between">
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>TamilNadu</option>
+          <option>Andra</option>
+          <option>Kerala</option>
+          <option>Karnataka</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control shadow-none" id="inputCity">
+      </div>
+    </div>
+
+    <div class="col-12 mb-1 mt-5">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+
+
+
+
+<!-- normal html and css form validation -->
+
+  <section id="select">
+    <div id="form-div">
+      <h1 id="form-heading">Form Validation</h1>
+      <div class="seperate-div">
+        <div class="name-lable"><label for="fname">NAME</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="name-input">
+          <input class="input" onkeypress="return namefield(event)" type="text">
+          <p id="Name-error"></p>
+        </div>
+
+      </div>
+
+
+      <div class="seperate-div">
+        <div class="age-lable"><label for="fname">AGE</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="age-input">
+          <input class="Age" onkeypress="return agefield(event)" type="text">
+          <p id="Age-error"></p>
+        </div>
+
+      </div>
+
+      <div class="seperate-div">
+        <div class="dob-lable"><label for="fname">D.O.B</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="dob-input">
+          <input class="Date" type="date">
+          <p id="dob-error"></p>
+        </div>
+      </div>
+
+
+      <div class="seperate-div">
+        <div class="Email-lable"><label for="fname">EMAIL</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="Email-inupt">
+          <input class="Email" type="text">
+          <p id="Email-error"></p>
+        </div>
+
+      </div>
+
+      <div class="seperate-div">
+        <div class="country-dropdown-lable"><label for="fname">COUNTRY</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="country-dropdown-select">
+          <select name="country" id="country-dropdown">
+            <option value="Jappan ">Jappan </option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="malesiya">malesiya</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="seperate-div">
+        <div class="State-dropdown-lable"><label for="fname">STATE</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="State-dropdown-select">
+          <select name="country" id="state-dropdown">
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Andra">Andra</option>
+            <option value="Delhi">Delhi</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="seperate-div">
+        <div class="Radio-button-lable"><label for="fname">GENDER</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div id="Radio-button-select">
+          <input type="radio" name="radiobtn" value="Male">
+          <label class="Male" for="Male">Male</label>
+          <input type="radio" name="radiobtn" value="Female">
+          <label class="Male" for="Female">Female</label>
+          <input type="radio" name="radiobtn" value="Other">
+          <label class="Male" for="Other">Other</label>
+        </div>
+      </div>
+
+      <div class="seperate-div">
+        <div class="Address-lable"><label for="">ADDRESS</label></div>
+        <div class="symbol">
+          <p>:</p>
+        </div>
+        <div class="Address-inupt">
+          <textarea name="" id="textarea" cols="15" rows="2"></textarea>
+          <p id="Address-error"></p>
+        </div>
+      </div>
+      <div id="submit">
+        <button id="submit-button">Submit</button>
+      </div>
+    </div>
+  </section>
+  <div id="output">
+
+  </div>
+  <link rel="stylesheet" href="assets/js/jquery.min.js">
+  <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+  <script src="script.js"></script>
+</body>
+
+</html>
